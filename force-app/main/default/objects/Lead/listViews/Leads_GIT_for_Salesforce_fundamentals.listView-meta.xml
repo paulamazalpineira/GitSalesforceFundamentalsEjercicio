@@ -6,9 +6,14 @@
     <columns>LEAD.COMPANY</columns>
     <columns>LEAD.STATE</columns>
     <columns>LEAD.STATUS</columns>
-    <columns>LEAD.UNREAD</columns>
     <columns>LEAD.CREATED_DATE</columns>
     <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.CITY</columns>
     <filterScope>Everything</filterScope>
+    <filters>
+        <field>LEAD.CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>THIS_YEAR</value>
+    </filters>
     <label>Leads GIT for Salesforce fundamentals</label>
 </ListView>
